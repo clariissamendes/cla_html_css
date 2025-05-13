@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        body {
+            font-family: 'work Sans', Arial, Helvetica, sans-serif;
+            /* 
+            Medidas absolutas
+            cm, mm, in (polegada), px, pt, pc
+
+            Medidas relativas
+            em, ex, rem, % (porcentagem), vw (viewport width), vh (viewport height)
+            16px = 1em = 100% (tamanho padrão do navegador)
+            */
+            font-size: 16px;
+        }
+        h1 {
+            font-family: 'work Sans', sans-serif;
+            font-size: 3em;
+            font-weight: bolder;
+            /* normal, bold, bolder, lighter, 100, 200, 300, 400, 500, 600, 700, 800, 900 */
+
+            /* weight = peso, width = largura, height = altura*/
+
+            font-style: italic; 
+            /* normal, italic, oblique */
+            text-decoration: underline;
+
+            /* shorthand font
+            
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'work Sans', sans-serif;
+        }
+        h2 {
+            font: bold 2em 'work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque in quia eum repellat illum, culpa incidunt numquam possimus eligendi mollitia, voluptatum vitae quisquam ullam adipisci nulla fugit fuga odit omnis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus facere voluptatum exercitationem consequatur sed fuga voluptatibus enim laborum quisquam? Nihil, sunt vero reprehenderit aspernatur hic dicta illo commodi inventore. Vitae!</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur delectus incidunt ipsum deserunt!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus! Quod, cumque. Repudiandae, doloremque. Quisquam, voluptatibus! Quod, cumque. Repudiandae, doloremque. Quisquam, voluptatibus! Quod, cumque. Repudiandae, doloremque.</p>
+</body>
+</html>
